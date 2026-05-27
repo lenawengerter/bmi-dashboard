@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.10.0/Recharts.js"></script>
+</head>
+<body style="margin: 0; padding: 20px; background: #1f2937; color: white; font-family: sans-serif;">
+  <h1>📊 BMI Dashboard</h1>
+  <div id="app">Loading...</div>
+  
+  <script>
+    fetch('/bmi-live-daten.json')
+      .then(r => r.json())
+      .then(data => {
+        const html = `
+          <h2>Total Records: ${data.records.length}</h2>
+          <p>Last Updated: ${data.metadata.generatedAt}</p>
+          <pre>${JSON.stringify(data.metadata.statistics, null, 2)}</pre>
+          <table border="1" style="width:100%; border-collapse: collapse;">
+            <tr><th>Brand</th><th>Platform</th><th>Content</th><th>Sentiment</th></tr>
+            ${data.records.slice(0, 10).map(r => `
+              <tr>
+                <td>${r.brand}</td>
+                <td>${r.platform}</td>
+                <td>${r.content.substring(0, 50)}...</td>
+                <td>${r.sentiment}</td>
+              </tr>
+            `).join('')}
+          </table>
+        `;
+        document.getElementById('app').innerHTML = html;
+      })
+      .catch(e => {
+        document.getElementById('app').innerHTML = '<p>Error loading data: ' + e.message + '</p>';
+      });
+  </script>
+</body>
+</html>
