@@ -1,0 +1,2304 @@
+{
+  "metadata": {
+    "generatedAt": "2026-05-26T19:14:53.160Z",
+    "executionTimeMs": 433203,
+    "filterMonths": 3,
+    "dateCutoff": "2026-02-26",
+    "totalRecords": 0,
+    "statistics": {
+      "total": 0,
+      "byBrand": {},
+      "byPlatform": {},
+      "bySentiment": {
+        "Positiv": 0,
+        "Neutral": 0,
+        "Negativ": 0
+      },
+      "bySource": {}
+    },
+    "collectionMetrics": {
+      "mapsSearches": 10,
+      "mapsReviews": 0,
+      "forumScrapes": 84,
+      "forumResults": 0,
+      "youtubeSearches": 13,
+      "youtubeComments": 0,
+      "errors": 4,
+      "warnings": 210
+    }
+  },
+  "records": [],
+  "logs": [
+    {
+      "timestamp": "2026-05-26T19:07:39.958Z",
+      "level": "INFO",
+      "msg": "Starting Google Maps collection",
+      "details": {
+        "locations": 10
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:39.958Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Werk Heusenstamm",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:40.019Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Werk Heusenstamm",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:40.519Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Dachziegel Bamberg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:40.543Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Dachziegel Bamberg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:41.044Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Werk Mainburg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:41.071Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Werk Mainburg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:41.572Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Wolfin Flachdach Wächtersbach",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:41.592Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Wolfin Flachdach Wächtersbach",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:42.093Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Vedag Werk Bamberg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:42.114Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Vedag Werk Bamberg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:42.615Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Werk Ennepetal",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:42.634Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Werk Ennepetal",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:43.135Z",
+      "level": "INFO",
+      "msg": "Searching Maps: BMI Group Oberursel",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:43.246Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: BMI Group Oberursel",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:43.747Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Werk Berlin",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:43.768Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Werk Berlin",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:44.269Z",
+      "level": "INFO",
+      "msg": "Searching Maps: Braas Werk Petershagen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:44.288Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: Braas Werk Petershagen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:44.789Z",
+      "level": "INFO",
+      "msg": "Searching Maps: BMI icopal Hamburg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:44.795Z",
+      "level": "INFO",
+      "msg": "Found 0 places for: BMI icopal Hamburg",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:07:45.295Z",
+      "level": "INFO",
+      "msg": "Google Maps done",
+      "details": {
+        "records": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:45.296Z",
+      "level": "INFO",
+      "msg": "Starting Forum scraping",
+      "details": {
+        "sources": 10,
+        "brands": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:46.345Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas Dachziegel",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20Dachziegel&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:48.247Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:50.066Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas Dachziegel",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20Dachziegel&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:51.623Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas Dachziegel",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20Dachziegel&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:52.862Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:54.499Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:07:58.778Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas Dachziegel",
+        "url": "https://www.dach.de/?s=Braas%20Dachziegel"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:00.567Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:02.403Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:03.633Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas Dachziegel",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:06.237Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas Dachsteine",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20Dachsteine&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:07.769Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:09.392Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas Dachsteine",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20Dachsteine&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:10.911Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas Dachsteine",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20Dachsteine&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:12.125Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:13.642Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:20.748Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas Dachsteine",
+        "url": "https://www.dach.de/?s=Braas%20Dachsteine"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:22.414Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:24.092Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:25.304Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas Dachsteine",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:27.256Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20Tondachziegel&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:28.918Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:30.598Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20Tondachziegel&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:32.144Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20Tondachziegel&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:33.406Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:34.943Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:39.826Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "url": "https://www.dach.de/?s=Braas%20Tondachziegel"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:41.548Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:43.278Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:44.509Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas Tondachziegel",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:46.460Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas Betondachstein",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20Betondachstein&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:48.004Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:49.621Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas Betondachstein",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20Betondachstein&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:51.138Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas Betondachstein",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20Betondachstein&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:52.352Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:53.869Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:57.653Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas Betondachstein",
+        "url": "https://www.dach.de/?s=Braas%20Betondachstein"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:08:59.354Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:00.983Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:02.195Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas Betondachstein",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:06.608Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20Dach%20Erfahrung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:08.358Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:10.120Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20Dach%20Erfahrung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:11.682Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20Dach%20Erfahrung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:12.921Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:14.573Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:19.963Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "url": "https://www.dach.de/?s=Braas%20Dach%20Erfahrung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:21.797Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:23.585Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:24.819Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:26.836Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "url": "https://www.hausbau-forum.de/search/?q=Braas%20verlegen%20Anleitung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:28.390Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:29.947Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Braas%20verlegen%20Anleitung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:31.464Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Braas%20verlegen%20Anleitung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:32.676Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:34.194Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:38.038Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "url": "https://www.dach.de/?s=Braas%20verlegen%20Anleitung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:39.713Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:41.313Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:42.528Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Braas verlegen Anleitung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:44.329Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Vedag Flachdach",
+        "url": "https://www.hausbau-forum.de/search/?q=Vedag%20Flachdach&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:46.104Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:47.854Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Vedag Flachdach",
+        "url": "https://www.bauexpertenforum.de/search/?q=Vedag%20Flachdach&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:49.422Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Vedag Flachdach",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Vedag%20Flachdach&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:50.652Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:52.290Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:55.998Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Vedag Flachdach",
+        "url": "https://www.dach.de/?s=Vedag%20Flachdach"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:57.713Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:09:59.416Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:00.652Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Vedag Flachdach",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:03.679Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "url": "https://www.hausbau-forum.de/search/?q=Vedag%20Bitumenbahn&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:05.230Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:06.788Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "url": "https://www.bauexpertenforum.de/search/?q=Vedag%20Bitumenbahn&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:08.304Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Vedag%20Bitumenbahn&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:09.522Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:11.040Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:13.626Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "url": "https://www.dach.de/?s=Vedag%20Bitumenbahn"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:15.315Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:16.980Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:18.200Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Vedag Bitumenbahn",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:20.069Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "url": "https://www.hausbau-forum.de/search/?q=Vedag%20Abdichtung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:22.308Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:24.036Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Vedag%20Abdichtung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:25.582Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Vedag%20Abdichtung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:26.821Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:28.458Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:31.505Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "url": "https://www.dach.de/?s=Vedag%20Abdichtung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:33.695Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:35.383Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:36.717Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Vedag Abdichtung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:38.640Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "url": "https://www.hausbau-forum.de/search/?q=Vedag%20Schwei%C3%9Fbahn&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:40.202Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:41.789Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "url": "https://www.bauexpertenforum.de/search/?q=Vedag%20Schwei%C3%9Fbahn&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:43.307Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Vedag%20Schwei%C3%9Fbahn&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:44.522Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:46.040Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:49.732Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "url": "https://www.dach.de/?s=Vedag%20Schwei%C3%9Fbahn"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:51.427Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:53.078Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:54.291Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Vedag Schweißbahn",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:58.137Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "url": "https://www.hausbau-forum.de/search/?q=Vedag%20Dach%20Erfahrung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:10:59.688Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:01.411Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Vedag%20Dach%20Erfahrung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:02.948Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Vedag%20Dach%20Erfahrung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:04.203Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:05.859Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:10.417Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "url": "https://www.dach.de/?s=Vedag%20Dach%20Erfahrung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:12.146Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:13.789Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:15.020Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Vedag Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:16.961Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "url": "https://www.hausbau-forum.de/search/?q=Wolfin%20Flachdach&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:18.881Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:20.505Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "url": "https://www.bauexpertenforum.de/search/?q=Wolfin%20Flachdach&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:22.063Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Wolfin%20Flachdach&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:23.277Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:24.795Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:27.836Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "url": "https://www.dach.de/?s=Wolfin%20Flachdach"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:29.524Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:31.182Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:32.395Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Wolfin Flachdach",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:34.199Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "url": "https://www.hausbau-forum.de/search/?q=Wolfin%20Dachbahn&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:35.763Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:37.378Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "url": "https://www.bauexpertenforum.de/search/?q=Wolfin%20Dachbahn&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:38.896Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Wolfin%20Dachbahn&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:40.125Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:41.642Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:46.945Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "url": "https://www.dach.de/?s=Wolfin%20Dachbahn"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:48.642Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:50.384Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:51.602Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Wolfin Dachbahn",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:53.648Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Wolfin TPO",
+        "url": "https://www.hausbau-forum.de/search/?q=Wolfin%20TPO&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:55.354Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:57.067Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Wolfin TPO",
+        "url": "https://www.bauexpertenforum.de/search/?q=Wolfin%20TPO&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:58.615Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Wolfin TPO",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Wolfin%20TPO&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:11:59.828Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:01.668Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:07.155Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Wolfin TPO",
+        "url": "https://www.dach.de/?s=Wolfin%20TPO"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:08.881Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:10.492Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:11.710Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Wolfin TPO",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:15.776Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "url": "https://www.hausbau-forum.de/search/?q=Wolfin%20Abdichtung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:17.336Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:18.888Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Wolfin%20Abdichtung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:20.403Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Wolfin%20Abdichtung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:21.643Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:23.160Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:28.931Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "url": "https://www.dach.de/?s=Wolfin%20Abdichtung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:30.604Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:32.284Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:33.499Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Wolfin Abdichtung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:35.441Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "url": "https://www.hausbau-forum.de/search/?q=Wolfin%20Dach%20Erfahrung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:37.191Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:38.876Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "url": "https://www.bauexpertenforum.de/search/?q=Wolfin%20Dach%20Erfahrung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:40.511Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=Wolfin%20Dach%20Erfahrung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:41.723Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:43.362Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:46.605Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "url": "https://www.dach.de/?s=Wolfin%20Dach%20Erfahrung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:48.416Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:50.086Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:51.300Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "Wolfin Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:53.365Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "icopal Flachdach",
+        "url": "https://www.hausbau-forum.de/search/?q=icopal%20Flachdach&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:54.914Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:56.607Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "icopal Flachdach",
+        "url": "https://www.bauexpertenforum.de/search/?q=icopal%20Flachdach&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:58.125Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "icopal Flachdach",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=icopal%20Flachdach&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:12:59.341Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:00.858Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:04.501Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "icopal Flachdach",
+        "url": "https://www.dach.de/?s=icopal%20Flachdach"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:06.170Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:07.813Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:09.030Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "icopal Flachdach",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:12.328Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "url": "https://www.hausbau-forum.de/search/?q=icopal%20Bitumenbahn&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:14.118Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:15.783Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "url": "https://www.bauexpertenforum.de/search/?q=icopal%20Bitumenbahn&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:17.334Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=icopal%20Bitumenbahn&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:18.590Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:20.226Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:24.847Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "url": "https://www.dach.de/?s=icopal%20Bitumenbahn"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:26.704Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:28.304Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:29.517Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "icopal Bitumenbahn",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:31.434Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "url": "https://www.hausbau-forum.de/search/?q=icopal%20Dach%20Erfahrung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:33.145Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:35.362Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "url": "https://www.bauexpertenforum.de/search/?q=icopal%20Dach%20Erfahrung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:36.879Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=icopal%20Dach%20Erfahrung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:38.093Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:39.612Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:43.614Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "url": "https://www.dach.de/?s=icopal%20Dach%20Erfahrung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:45.280Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:47.019Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:48.265Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "icopal Dach Erfahrung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:50.048Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "icopal Abdichtung",
+        "url": "https://www.hausbau-forum.de/search/?q=icopal%20Abdichtung&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:51.987Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:53.709Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "icopal Abdichtung",
+        "url": "https://www.bauexpertenforum.de/search/?q=icopal%20Abdichtung&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:55.355Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "icopal Abdichtung",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=icopal%20Abdichtung&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:56.613Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:13:58.132Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:02.738Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "icopal Abdichtung",
+        "url": "https://www.dach.de/?s=icopal%20Abdichtung"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:04.472Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:06.191Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:07.403Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "icopal Abdichtung",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:11.133Z",
+      "level": "WARN",
+      "msg": "No posts matched for Hausbau Forum",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "url": "https://www.hausbau-forum.de/search/?q=icopal%20Schwei%C3%9Fbahn&c[child_nodes]=1&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:12.688Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Haustechnik Dialog",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:14.282Z",
+      "level": "WARN",
+      "msg": "No posts matched for Bauexpertenforum",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "url": "https://www.bauexpertenforum.de/search/?q=icopal%20Schwei%C3%9Fbahn&o=date"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:15.798Z",
+      "level": "WARN",
+      "msg": "No posts matched for Energiesparhaus.at",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "url": "https://www.energiesparhaus.at/forum/suche.asp?suchbegriff=icopal%20Schwei%C3%9Fbahn&sortierung=datum"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:17.010Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Selbst.de Community",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "getaddrinfo ENOTFOUND community.selbst.de"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:18.788Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Bauforum24",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "certificate has expired"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:27.154Z",
+      "level": "WARN",
+      "msg": "No posts matched for Dachdecker Forum dach.de",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "url": "https://www.dach.de/?s=icopal%20Schwei%C3%9Fbahn"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:28.814Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Heinze",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:30.480Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Baunetz.de",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "Request failed with status code 404"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:31.708Z",
+      "level": "WARN",
+      "msg": "Forum scrape failed: Zimmerer Forum",
+      "details": {
+        "query": "icopal Schweißbahn",
+        "error": "getaddrinfo ENOTFOUND zimmerer-forum.eu"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:32.909Z",
+      "level": "INFO",
+      "msg": "Forum scraping done",
+      "details": {
+        "records": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:32.910Z",
+      "level": "INFO",
+      "msg": "Starting YouTube collection",
+      "details": {
+        "brands": 4
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:32.910Z",
+      "level": "INFO",
+      "msg": "YouTube search: Braas Dachziegel Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:33.213Z",
+      "level": "INFO",
+      "msg": "Found 20 videos for: Braas Dachziegel Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:41.421Z",
+      "level": "INFO",
+      "msg": "YouTube search: Braas Dachsteine verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:41.687Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Braas Dachsteine verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:42.188Z",
+      "level": "INFO",
+      "msg": "YouTube search: Braas Tondachziegel Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:42.447Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Braas Tondachziegel Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:42.947Z",
+      "level": "INFO",
+      "msg": "YouTube search: Braas Betondachstein Review",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:43.210Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Braas Betondachstein Review",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:43.711Z",
+      "level": "INFO",
+      "msg": "YouTube search: Braas Dach Renovierung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:44.021Z",
+      "level": "INFO",
+      "msg": "Found 1 videos for: Braas Dach Renovierung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:44.948Z",
+      "level": "INFO",
+      "msg": "YouTube search: Vedag Flachdach Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:45.140Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Vedag Flachdach Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:45.640Z",
+      "level": "INFO",
+      "msg": "YouTube search: Vedag Bitumenbahn verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:45.845Z",
+      "level": "INFO",
+      "msg": "Found 1 videos for: Vedag Bitumenbahn verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:46.725Z",
+      "level": "INFO",
+      "msg": "YouTube search: Vedag Abdichtung Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:46.935Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Vedag Abdichtung Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:47.436Z",
+      "level": "INFO",
+      "msg": "YouTube search: Vedag Flachdachabdichtung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:47.604Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Vedag Flachdachabdichtung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:48.105Z",
+      "level": "INFO",
+      "msg": "YouTube search: Wolfin Flachdach Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:48.130Z",
+      "level": "ERROR",
+      "msg": "YouTube search failed: Wolfin Flachdach Erfahrung",
+      "details": {
+        "error": "Request failed with status code 429"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:48.631Z",
+      "level": "INFO",
+      "msg": "YouTube search: Wolfin Dachbahn verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:48.871Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Wolfin Dachbahn verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:49.371Z",
+      "level": "INFO",
+      "msg": "YouTube search: Wolfin TPO Dach",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:49.554Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Wolfin TPO Dach",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:50.055Z",
+      "level": "INFO",
+      "msg": "YouTube search: Wolfin Abdichtung Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:50.298Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: Wolfin Abdichtung Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:50.799Z",
+      "level": "INFO",
+      "msg": "YouTube search: icopal Flachdach Erfahrung",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:50.822Z",
+      "level": "ERROR",
+      "msg": "YouTube search failed: icopal Flachdach Erfahrung",
+      "details": {
+        "error": "Request failed with status code 429"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:51.323Z",
+      "level": "INFO",
+      "msg": "YouTube search: icopal Bitumenbahn verlegen",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:51.357Z",
+      "level": "ERROR",
+      "msg": "YouTube search failed: icopal Bitumenbahn verlegen",
+      "details": {
+        "error": "Request failed with status code 429"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:51.857Z",
+      "level": "INFO",
+      "msg": "YouTube search: icopal Dach Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:52.068Z",
+      "level": "INFO",
+      "msg": "Found 0 videos for: icopal Dach Test",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:52.569Z",
+      "level": "INFO",
+      "msg": "YouTube search: icopal Abdichtung Review",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-05-26T19:14:52.659Z",
+      "level": "ERROR",
+      "msg": "YouTube search failed: icopal Abdichtung Review",
+      "details": {
+        "error": "Request failed with status code 429"
+      }
+    },
+    {
+      "timestamp": "2026-05-26T19:14:53.160Z",
+      "level": "INFO",
+      "msg": "YouTube done",
+      "details": {
+        "records": 0
+      }
+    }
+  ]
+}
